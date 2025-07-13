@@ -5,5 +5,4 @@ class Lote < ApplicationRecord
   validates :data_validade, presence: true
   validates :data_fabricacao, presence: true
   validates :quantidade, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
-
 end
